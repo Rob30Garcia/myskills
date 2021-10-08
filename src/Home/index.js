@@ -88,7 +88,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#1F1E25',
     padding: 15,
     borderRadius: 50,
-    alignItems: 'center'
+    alignItems: 'center', 
+    marginVertical: 10
   },
   textSkill: {
     color: '#FFF',
