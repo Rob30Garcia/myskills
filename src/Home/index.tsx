@@ -8,7 +8,7 @@ import {
   FlatList
 } from 'react-native';
 import { Button } from '../components/Button';
-import { SkillButton } from '../components/SkillButton';
+import { SkillCard } from '../components/SkillCard';
 
 interface SkillData {
   id: string;
@@ -53,7 +53,7 @@ export function Home() {
           data={mySkills}
           keyExtractor={item => item.id}
           renderItem={({ item }) => (
-            <SkillButton skill={item.name}/>
+            <SkillCard skill={item.name}/>
           )}
         />
       </View>
